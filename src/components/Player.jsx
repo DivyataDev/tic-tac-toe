@@ -17,8 +17,7 @@ export default function Player({name, symbol, isActive, onChangeName}) {
 
     }
 
-    function handleChangePlayerName(event) {
-     //   console.log(event)
+    function handleChangePlayerName(event) { 
         setPlayerName(event.target.value)
     }
 
